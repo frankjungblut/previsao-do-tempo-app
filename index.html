@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="box-master">
+        <input class="city-input" placeholder="City..." type="text">
+        <button class="search-button" onclick="buttonActive()">
+            <img class="search-img" src="https://www.svgrepo.com/show/488200/find.svg" alt="Search">
+        </button>
+        <div class="box-medium">
+            <h2 class="city">Weather in São Paulo</h2>
+
+            <p class="temperature">22° C</p>
+
+            <div class="box-small">
+                <img class="prediction-img" src="https://openweathermap.org/img/wn/04n.png">
+                <p class="prediction-text">Nublado</p>
+            </div>
+            <p class="humidity">Umidade: 80%</p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
