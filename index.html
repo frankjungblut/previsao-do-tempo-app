@@ -15,17 +15,21 @@
             <img class="search-img" src="https://www.svgrepo.com/show/488200/find.svg" alt="Search">
         </button>
         <div class="box-medium">
-            <h2 class="city">Weather in São Paulo</h2>
+            <h2 class="city">Weather in City</h2>
 
-            <p class="temperature">22° C</p>
+            <p class="temperature">--- -</p>
 
             <div class="box-small">
                 <img class="prediction-img" src="https://openweathermap.org/img/wn/04n.png">
                 <p class="prediction-text">Nublado</p>
             </div>
-            <p class="humidity">Umidade: 80%</p>
+            <p class="humidity">Humidity: --%</p>
+
+            <div class="toggle-buttons">
+                <button class="unit-toggle" onclick="toggleUnit('celsius')">°C</button>
+                <button class="unit-toggle" onclick="toggleUnit('fahrenheit')">°F</button>
+            </div>
         </div>
-    </div>
 </body>
 <script src="script.js"></script>
 

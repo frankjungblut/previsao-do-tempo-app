@@ -7,7 +7,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -16,7 +16,23 @@ body{
     background-image: url("https://images.unsplash.com/photo-1535747790212-30c585ab4867?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTcxMTY1MzU4Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
 }
 
-.box-master{
+.unit {
+    color: #ffffff;
+    font-size: 10px;
+    float: right;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    opacity: 0.8;
+}
+
+.unit:hover {
+    color: rgb(228, 190, 120);
+    font-weight: bold;
+}
+
+.box-master {
     background-color: #000000;
     opacity: 0.8;
     border-radius: 25px;
@@ -25,7 +41,7 @@ body{
     max-width: 450px;
 }
 
-.city-input{
+.city-input {
     border: none;
     outline: none;
     padding: 10px;
@@ -33,10 +49,10 @@ body{
     font-size: 20px;
     background-color: #7c7c7c2b;
     color: #ffffff;
-    width: calc(100% - 100px);
+    width: calc(100% - 55px);
 }
 
-.search-button{
+.search-button {
     border: none;
     outline: none;
     cursor: pointer;
@@ -46,39 +62,56 @@ body{
     float: right;
 }
 
-.search-img{
+.search-button:hover {
+    background-color: #7c7c7c71;
+}
+
+.search-button:active {
+    opacity: 0.2;
+}
+
+.search-img {
     width: 20px;
 }
 
-.box-medium{
-margin-top: 30px;
+.box-medium {
+    margin-top: 30px;
 }
 
-.city{
+.city {
     color: #ffffff;
     font-size: 28px;
     font-weight: 300;
 }
 
-.temperature{
+.temperature {
     font-size: 20px;
     color: #ffffff;
     margin-top: 20px;
 }
 
-.box-small{
+.box-small {
     display: flex;
     align-items: center;
     margin-top: 20px;
 }
 
-.prediction-text{
+.prediction-text {
     color: #ffffff;
     margin-left: 20px;
     text-transform: capitalize;
 }
 
-.humidity{
+.humidity {
     color: #ffffff;
     margin-top: 20px;
 }
+
+.switch {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    float: right;
+    color: #ffffff;
+}
+
