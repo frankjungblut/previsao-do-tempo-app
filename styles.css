@@ -115,3 +115,19 @@ body {
     color: #ffffff;
 }
 
+.unit-toggle{
+    float: right;
+    border: none;
+    background: none;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.unit-toggle:hover{
+    color: #ee7f17;
+    font-weight: bold;
+}
+
+.unit-toggle:active{
+    opacity: 0.2;
+}
