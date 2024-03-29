@@ -1,5 +1,6 @@
 <h1>Projeto Aplicativo Previsão do Tempo :cloud:</h1> 
 ---
+
   Projeto desenvolvido com orientação de Rodolfo Mori, em vídeo de seu canal no Youtube.  
   
 Como desafio: implementei a funcionalidade para que o usuário decida se prefere ver a temperatura em °C ou °F.
